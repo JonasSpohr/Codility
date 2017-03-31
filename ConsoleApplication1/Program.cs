@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 /// Author: Jonas Spohr
 /// </summary>
 
-namespace TopTalChallenge_JS
+namespace Codility
 {
     class Program
     {

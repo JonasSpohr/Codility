@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TopTalChallenge_JS
+namespace Codility
 {
     public class BinaryGap
     {

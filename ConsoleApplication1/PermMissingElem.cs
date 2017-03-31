@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace TopTalChallenge_JS
+namespace Codility
 {
     public class PermMissingElem
     {
