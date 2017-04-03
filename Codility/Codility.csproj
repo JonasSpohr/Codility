@@ -44,20 +44,33 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BinaryGap.cs" />
+    <Compile Include="Brackets.cs" />
     <Compile Include="CountDiv.cs" />
     <Compile Include="CyclicRotation.cs" />
+    <Compile Include="Distinct.cs" />
+    <Compile Include="Dominator.cs" />
+    <Compile Include="Fish.cs" />
     <Compile Include="FrogJmp.cs" />
     <Compile Include="FrogRiverOne.cs" />
     <Compile Include="GenomicRangeQuery.cs" />
     <Compile Include="MaxCounters.cs" />
+    <Compile Include="MaxDoubleSliceSum.cs" />
+    <Compile Include="MaxProductOfThree.cs" />
+    <Compile Include="MaxProfit.cs" />
+    <Compile Include="MaxSliceSum.cs" />
+    <Compile Include="MinAvgTwoSlice.cs" />
     <Compile Include="MissingInteger.cs" />
+    <Compile Include="Nesting.cs" />
+    <Compile Include="NumberOfDiscIntersections.cs" />
     <Compile Include="OddOccurrencesInArray.cs" />
     <Compile Include="PassingCars.cs" />
     <Compile Include="PermCheck.cs" />
     <Compile Include="PermMissingElem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StoneWall.cs" />
     <Compile Include="TapeEquilibrium.cs" />
+    <Compile Include="Triangle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

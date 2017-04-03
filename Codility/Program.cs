@@ -15,7 +15,7 @@ namespace Codility
         static void Main(string[] args)
         {
             Console.WriteLine("Running...");
-            execute("genomicrangequery");
+            execute("maxslicesum");
             Console.WriteLine("Finished...");
             Console.ReadLine();
         }
@@ -114,6 +114,84 @@ namespace Codility
                     GenomicRangeQuery genomyc = new GenomicRangeQuery();
                     var retGENOMYC = genomyc.run("CAGCCTA", new int[] { 2, 5, 0 }, new int[] { 4, 5, 6 });
                     Console.WriteLine("GenomicRangeQuery Result is: " + string.Join(",", retGENOMYC.Select(p => p.ToString()).ToArray()));
+                    break;
+
+                case "minavgtwoslice": // 100%
+                    MinAvgTwoSlice minavg = new MinAvgTwoSlice();
+                    var retMINAVG = minavg.run(new int[] { 4, 2, 2, 5, 1, 5, 8 });
+                    Console.WriteLine("MinAvgTwoSlice Result is: " + retMINAVG);
+                    break;
+
+                case "distinct": // 100%
+                    Distinct dist = new Distinct();
+                    var retDIST = dist.run(new int[] { 2, 1, 1, 2, 3, 1 });
+                    Console.WriteLine("MinAvgTwoSlice Result is: " + retDIST);
+                    break;
+
+                case "maxproductofthree": // 100%
+                    MaxProductOfThree max3 = new MaxProductOfThree();
+                    var retMAX3 = max3.run(new int[] { -3, 1, 2, -2, 5, 6 });
+                    Console.WriteLine("MaxProductOfThree Result is: " + retMAX3);
+                    break;
+
+                case "triangle": // 90%
+                    Triangle triangle = new Triangle();
+                    var retTRIANGLE = triangle.run(new int[] { 2147483647, 2147483647, 2147483647 });
+                    Console.WriteLine("Triangle Result is: " + retTRIANGLE);
+                    break;
+
+                case "numberofdiscintersections": // 100%
+                    NumberOfDiscIntersections maxDisc = new NumberOfDiscIntersections();
+                    var retMAXDISC = maxDisc.run(new int[] { 1, 5, 2, 1, 4, 0 });
+                    Console.WriteLine("NumberOfDiscIntersections Result is: " + retMAXDISC);
+                    break;
+
+                case "brackets": // 100%
+                    Brackets brackets = new Brackets();
+                    var retBRACKETS = brackets.run("{[()()]}");
+                    Console.WriteLine("Brackets Result is: " + retBRACKETS);
+                    break;
+
+                case "fish": // 100%
+                    Fish fish = new Fish();
+                    var retFISH = fish.run(new int[] { 4, 3, 2, 1, 5 }, new int[] { 0, 1, 0, 0, 0 });
+                    Console.WriteLine("Fish Result is: " + retFISH);
+                    break;
+
+                case "nesting": // 100%
+                    Nesting nest = new Nesting();
+                    var retNEST = nest.run("(()(())())");
+                    Console.WriteLine("Nesting Result is: " + retNEST);
+                    break;
+
+                case "stonewall": // 100%
+                    StoneWall stone = new StoneWall();
+                    var retSTONE = stone.run(new int[] { 8, 8, 5, 7, 9, 8, 7, 4, 8 });
+                    Console.WriteLine("StoneWall Result is: " + retSTONE);
+                    break;
+
+                case "dominator": // 100%
+                    Dominator dominator = new Dominator();
+                    var retDOMINATOR = dominator.run(new int[] { 3, 4, 3, 2, 3, -1, 3, 3 });
+                    Console.WriteLine("Dominator Result is: " + retDOMINATOR);
+                    break;
+
+                case "maxdoubleslicesum": // 100%
+                    MaxDoubleSliceSum maxDouble = new MaxDoubleSliceSum();
+                    var retMAXDOUBLE = maxDouble.run(new int[] { 3, 2, 6, -1, 4, 5, -1, 2 });
+                    Console.WriteLine("MaxDoubleSliceSum Result is: " + retMAXDOUBLE);
+                    break;
+
+                case "maxprofit": // 100%
+                    MaxProfit maxProfit = new MaxProfit();
+                    var retMAXPROFIT = maxProfit.run(new int[] { 23171, 21011, 21123, 21366, 21013, 21367 });
+                    Console.WriteLine("MaxProfit Result is: " + retMAXPROFIT);
+                    break;
+
+                case "maxslicesum": // 100%
+                    MaxSliceSum maxSlice = new MaxSliceSum();
+                    var retMAXSLICE = maxSlice.run(new int[] { 3, 2, -6, 4, 0 });
+                    Console.WriteLine("MaxSliceSum Result is: " + retMAXSLICE);
                     break;
 
                 default:

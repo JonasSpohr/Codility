@@ -7,3 +7,6 @@ C:\Users\jonass\Documents\Visual Studio 2015\Projects\ConsoleApplication1\Consol
 C:\Users\jonass\Documents\Visual Studio 2015\Projects\Codility-Lessons\Codility\bin\Debug\ConsoleApplication1.exe.config
 C:\Users\jonass\Documents\Visual Studio 2015\Projects\Codility-Lessons\Codility\obj\Debug\ConsoleApplication1.exe
 C:\Users\jonass\Documents\Visual Studio 2015\Projects\Codility-Lessons\Codility\obj\Debug\ConsoleApplication1.pdb
+C:\Users\jonass\Documents\Visual Studio 2015\Projects\Codility-Lessons\Codility\bin\Debug\ConsoleApplication1.exe
+C:\Users\jonass\Documents\Visual Studio 2015\Projects\Codility-Lessons\Codility\bin\Debug\ConsoleApplication1.pdb
+C:\Users\jonass\Documents\Visual Studio 2015\Projects\Codility-Lessons\Codility\obj\Debug\Codility.csprojResolveAssemblyReference.cache
