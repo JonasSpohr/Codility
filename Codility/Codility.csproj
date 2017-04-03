@@ -46,6 +46,8 @@
     <Compile Include="BinaryGap.cs" />
     <Compile Include="Brackets.cs" />
     <Compile Include="CountDiv.cs" />
+    <Compile Include="CountFactors.cs" />
+    <Compile Include="CountSemiprimes.cs" />
     <Compile Include="CyclicRotation.cs" />
     <Compile Include="Distinct.cs" />
     <Compile Include="Dominator.cs" />
@@ -59,11 +61,13 @@
     <Compile Include="MaxProfit.cs" />
     <Compile Include="MaxSliceSum.cs" />
     <Compile Include="MinAvgTwoSlice.cs" />
+    <Compile Include="MinPerimeterRectangle.cs" />
     <Compile Include="MissingInteger.cs" />
     <Compile Include="Nesting.cs" />
     <Compile Include="NumberOfDiscIntersections.cs" />
     <Compile Include="OddOccurrencesInArray.cs" />
     <Compile Include="PassingCars.cs" />
+    <Compile Include="Peaks.cs" />
     <Compile Include="PermCheck.cs" />
     <Compile Include="PermMissingElem.cs" />
     <Compile Include="Program.cs" />

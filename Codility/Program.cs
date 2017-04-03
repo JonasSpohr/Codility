@@ -15,7 +15,7 @@ namespace Codility
         static void Main(string[] args)
         {
             Console.WriteLine("Running...");
-            execute("maxslicesum");
+            execute("countsemiprimes");
             Console.WriteLine("Finished...");
             Console.ReadLine();
         }
@@ -24,6 +24,7 @@ namespace Codility
         /// Run the lesson you passed on method parameter
         /// </summary>
         /// <param name="method">Name of the method you want to execute</param>
+
         public static void execute(string method)
         {
             switch (method)
@@ -134,7 +135,7 @@ namespace Codility
                     Console.WriteLine("MaxProductOfThree Result is: " + retMAX3);
                     break;
 
-                case "triangle": // 90%
+                case "triangle": // 93%
                     Triangle triangle = new Triangle();
                     var retTRIANGLE = triangle.run(new int[] { 2147483647, 2147483647, 2147483647 });
                     Console.WriteLine("Triangle Result is: " + retTRIANGLE);
@@ -192,6 +193,30 @@ namespace Codility
                     MaxSliceSum maxSlice = new MaxSliceSum();
                     var retMAXSLICE = maxSlice.run(new int[] { 3, 2, -6, 4, 0 });
                     Console.WriteLine("MaxSliceSum Result is: " + retMAXSLICE);
+                    break;
+
+                case "countfactors": // 100%
+                    CountFactors countFactors = new CountFactors();
+                    var retCOUNTFACTORS = countFactors.run(6);
+                    Console.WriteLine("CountFactors Result is: " + retCOUNTFACTORS);
+                    break;
+
+                case "minperimeterrectangle": // 100%
+                    MinPerimeterRectangle minPerimeter = new MinPerimeterRectangle();
+                    var retMINPERIMETER = minPerimeter.run(30);
+                    Console.WriteLine("MinPerimeterRectangle Result is: " + retMINPERIMETER);
+                    break;
+
+                case "peaks": // 100%
+                    Peaks peaks = new Peaks();
+                    var retPEAKS = peaks.run(new int[] { 1, 2, 3, 4, 3, 4, 1, 2, 3, 4, 6, 2 });
+                    Console.WriteLine("Peaks Result is: " + retPEAKS);
+                    break;
+
+                case "countsemiprimes": // 55%
+                    CountSemiprimes semiPrimes = new CountSemiprimes();
+                    var retSEMIPRIMES = semiPrimes.run(26, new int[] { 1, 4, 16}, new int[] { 26, 10, 20 });
+                    Console.WriteLine("CountSemiprimes Result is: " + string.Join(",", retSEMIPRIMES.Select(p => p.ToString()).ToArray()));
                     break;
 
                 default:
